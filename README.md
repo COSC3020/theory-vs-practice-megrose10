@@ -13,3 +13,13 @@
   complexity suggests a different time.
 
 Add your answers to this markdown file.
+
+Part 1:
+1. Depending on the data structure the worst case of one might be the best case of another.
+2. Not all cases will work for all code of a certain size.
+3. 
+
+Part 2:
+
+Part 3:
+
