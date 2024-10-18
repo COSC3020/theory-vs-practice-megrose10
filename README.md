@@ -20,7 +20,7 @@ Part 1:
 3. Depending on the size of the data, some structures may do better than others.
 
 Part 2:
-Since binary search trees are using log base n it would take around 6 seconds. Since log base 1000 takes about 3 seconds but this runs a couple seconds more, I added 1 to log base 10000 to get a result of 6 seconds.
+Since binary search trees are using log2(n), then log2(1000) would be about 9.9 seconds, but with log2(10000) this would take about 13.3 seconds rounded. Since binary trees time grows at an exponential rate, the time between will keep increasing faster as the data increases. 
 
 Part 3:
 1. Depending on what you run the code on (computer) it can take longer.
@@ -28,7 +28,7 @@ Part 3:
 3. If the data was not sorted in the beginning the program may take longer.
 
 Citations:
-I used lecture notes and slides to base my answers on. I wasn't fully sure if my formula was correct so I tried to search online to see what a binary search tree formula would be but resulted in trying to put log base 1000 in the calculator to check if the formula was right.
+I used lecture notes and slides to base my answers on. I wasn't fully sure if my formula was correct so I tried to search online to see what a binary search tree formula would be but resulted in trying to put log base 1000 in the calculator to check if the formula was right. I worked with Olivia, Ashlyn, and Cole(Nathanial). 
 
 I certify that I have listed all sources used to complete this exercise, including the use
 of any Large Language Models. All of the work is my own, except where stated
