@@ -25,7 +25,7 @@ Since binary search trees are using log2(n), then log2(1000) would be about 9.9 
 Part 3:
 1. Depending on what you run the code on (computer) it can take longer.
 2. Asymptotic complexity is an estimation, so depending on the type of data this may run slower.
-3. If the data was not sorted in the beginning the program may take longer.
+3. Since binary trees can sometimes not be balanced, depending on how the tree is set up, the actual time could be longer than the asymtotic complexity. 
 
 Citations:
 I used lecture notes and slides to base my answers on. I wasn't fully sure if my formula was correct so I tried to search online to see what a binary search tree formula would be but resulted in trying to put log base 1000 in the calculator to check if the formula was right. I worked with Olivia, Ashlyn, and Cole(Nathanial). 
