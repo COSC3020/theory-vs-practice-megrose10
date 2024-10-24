@@ -17,7 +17,7 @@ Add your answers to this markdown file.
 Part 1:
 1. Asymptotic follows a formula that is a generalization, but depending on the code and how it is configured, the runtime can be much longer.
 2. Certain data may be bigger than others, so if you are running a greater amount of data on one data structure and a less amount of data on the same structure, the performance can differ.
-3. Depending on the size of the data, some structures may do better than others.
+3. Depending on the machines the code runs on, the same code can vary in time. Asymptotic analysis does not take in external variables.
 
 Part 2:
 Since binary search trees are using log2(n), then log2(1000) would be about 9.9 seconds, but with log2(10000) this would take about 13.3 seconds rounded. Since binary trees time grows at an exponential rate, the time between will keep increasing faster as the data increases. 
