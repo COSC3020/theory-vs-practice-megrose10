@@ -16,7 +16,7 @@ Add your answers to this markdown file.
 
 Part 1:
 1. Asymptotic follows a formula that is a generalization, but depending on the code and how it is configured, the runtime can be much longer.
-2. Not all cases will work for all code of a certain size.
+2. Certain data may be bigger than others, so if you are running a greater amount of data on one data structure and a less amount of data on the same structure, the performance can differ.
 3. Depending on the size of the data, some structures may do better than others.
 
 Part 2:
