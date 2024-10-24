@@ -23,8 +23,8 @@ Part 2:
 Since binary search trees are using log2(n), then log2(1000) would be about 9.9 seconds, but with log2(10000) this would take about 13.3 seconds rounded. Since binary trees time grows at an exponential rate, the time between will keep increasing faster as the data increases. 
 
 Part 3:
-1. Depending on what you run the code on (computer) it can take longer.
-2. Asymptotic complexity is an estimation, so depending on the type of data this may run slower.
+1. Depending on how your tree is balanced or organized, this time can take a longer or shorter amount.
+2. Asymptotic complexity is an estimation, so depending on the type of data this may run slower since it must compare to each node.
 3. Since binary trees can sometimes not be balanced, depending on how the tree is set up, the actual time could be longer than the asymtotic complexity. 
 
 Citations:
