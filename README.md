@@ -15,7 +15,7 @@
 Add your answers to this markdown file.
 
 Part 1:
-1. Depending on the data structure the worst case of one might be the best case of another.
+1. Asymptotic follows a formula that is a generalization, but depending on the code and how it is configured, the runtime can be much longer.
 2. Not all cases will work for all code of a certain size.
 3. Depending on the size of the data, some structures may do better than others.
 
