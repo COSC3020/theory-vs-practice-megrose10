@@ -15,8 +15,8 @@
 Add your answers to this markdown file.
 
 Part 1:
-1. Asymptotic follows a formula that is a generalization, but depending on the code and how it is configured, the runtime can be much longer.
-2. Certain data may be bigger than others, so if you are running a greater amount of data on one data structure and a less amount of data on the same structure, the performance can differ.
+1. An implementaion may have a average case that differs from that of the same implementation, so you cannot generalize that all implementations have the same best, average or worst case.
+2. Depending on how you implement the given data structure, this can cause a different analysis from the asymptotic analysis described in the beginning.
 3. Depending on the machines the code runs on, the same code can vary in time. Asymptotic analysis does not take in external variables.
 
 Part 2:
