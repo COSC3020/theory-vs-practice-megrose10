@@ -14,18 +14,19 @@
 
 Add your answers to this markdown file.
 
+
 Part 1:
-1. An implementaion may have a average case that differs from that of the same implementation, so you cannot generalize that all implementations have the same best, average or worst case.
+1. An implementation may have a average case that differs from that of the same implementation, so you cannot generalize that all implementations have the same best, average or worst case.
 2. Depending on how you implement the given data structure, this can cause a different analysis from the asymptotic analysis described in the beginning.
 3. Depending on the machines the code runs on, the same code can vary in time. Asymptotic analysis does not take in external variables.
 
 Part 2:
-Since binary search trees are using log2(n), then log2(1000) would be about 9.9 seconds, but with log2(10000) this would take about 13.3 seconds rounded. Since binary trees time grows at an exponential rate, the time between will keep increasing faster as the data increases. 
+Within binary trees, they usually have a complexity of log2(n). So, to find the estimated runtime we can find this by inputting our values. For 1000 elements the runtime is estimated at log2(1000) = 9.9 seconds. For 10000 elements, the runtime is estimated at log2(10000) = 13.3 seconds. This is just an estimation. To see how the logarithmic graph grows to these two points, we can divide them to see how much they grow, (13.3/9.9) = 1.34. So, now taking into account the runtime we are given for 1000 elements which is 5 seconds, we can multiply our rate that goes from 1000 to 10000 by the number resulting in 5 * 1.34 = 6.7 seconds. 
 
 Part 3:
-1. Depending on how your tree is balanced or organized, this time can take a longer or shorter amount.
-2. Asymptotic complexity is an estimation, so depending on the type of data this may run slower since it must compare to each node.
-3. Since binary trees can sometimes not be balanced, depending on how the tree is set up, the actual time could be longer than the asymtotic complexity. 
+1. Depending on how far the element is down, and if the tree is very unbalanced so it resembles more of a linked list, this may make the runtime longer.
+2. Depending on the type of data you use whether that is strings, integers, etc. the runtime may take longer. If the data is different data types it also may take longer. 
+3. Depending on the computer you run your code on, with larger sets of data it may take longer to process through the binary tree.   
 
 Citations:
 I used lecture notes and slides to base my answers on. I wasn't fully sure if my formula was correct so I tried to search online to see what a binary search tree formula would be but resulted in trying to put log base 1000 in the calculator to check if the formula was right. I worked with Olivia, Ashlyn, and Cole(Nathanial). 
