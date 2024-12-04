@@ -17,7 +17,7 @@ Add your answers to this markdown file.
 
 Part 1:
 1. Depending on the memory the machine has, or the program acquires, this can slow runtime. For example, if your program uses up a lot of memory, this can slow things down. Like if you had a bunch of arrays, strings, etc your program was looking through and there was not a way to get rid of memory you don't need, this can cause issues down the line. While this may not seem like a cause, while asymptotic complexity can tell you how much space your program will take, it cannot see the other programs running in the background. If RAM does not have enough storage to run this program, it may lag and have a longer runtime becuase it is waiting for memory to be freed up. 
-2. Like in the slides, having a more simple approach for some problems may not work for others. For example, if using memoization, if you are not reusing things you already calculated this slows the program down, but if you used this method for exaple a fib sequence, this would be faster.
+2. Some algoritms may do better or worse with some scenarios. While some programs may handle sorted data fine, others may not. There are certain cases that algorithms may seem like they will be fine, but may run into issues. For instance, an algorithm may be super fast with a few numbers, but when introduced to different inputs from the user, it could take longer to process some data.
 3. Depending on the machines the code runs on, the same code can vary in time. Asymptotic analysis does not take in external variables.
 
 Part 2:
