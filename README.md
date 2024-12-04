@@ -16,8 +16,8 @@ Add your answers to this markdown file.
 
 
 Part 1:
-1. An implementation may have a average case that differs from that of the same implementation, so you cannot generalize that all implementations have the same best, average or worst case.
-2. Depending on how you implement the given data structure, this can cause a different analysis from the asymptotic analysis described in the beginning.
+1. Depending on the memory the machine has, or the program acquires, this can slow runtime.
+2. If you have a more recursion based algorithm and a more iterative approach, these will have different runtimes so cannot be generalized.
 3. Depending on the machines the code runs on, the same code can vary in time. Asymptotic analysis does not take in external variables.
 
 Part 2:
